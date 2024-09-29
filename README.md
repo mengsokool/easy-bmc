@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Business Model Canvas (EasyBMC)
 
-## Getting Started
+**Business Model Canvas (EasyBMC)** เป็นเครื่องมือที่ช่วยในการสร้างและจัดการ Business Model Canvas แบบออนไลน์ ใช้เทคโนโลยี React พร้อมกับความสามารถในการเพิ่ม แก้ไข ลบ โน้ตในแต่ละ section ของ BMC และรองรับการส่งออก/นำเข้าข้อมูลเป็นไฟล์ JSON รวมถึงการพิมพ์ Business Model Canvas ออกมาในรูปแบบ PDF หรือกระดาษได้
 
-First, run the development server:
+## 📋 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- เพิ่ม, แก้ไข, และลบโน้ตในแต่ละ section ของ Business Model Canvas
+- ส่งออกข้อมูลของ canvas เป็นไฟล์ JSON และนำเข้าข้อมูลจากไฟล์ JSON ได้
+- พิมพ์ Business Model Canvas ออกมาในรูปแบบ PDF หรือกระดาษ
+- ใช้งานง่ายและปรับแต่งได้สำหรับโปรเจคธุรกิจทุกรูปแบบ
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+คุณสามารถดูตัวอย่างการใช้งาน EasyBMC ได้ที่ [EasyBMC](#) *(https://easybmc.vercel.app)*
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Installation
 
-## Learn More
+ทำตามขั้นตอนเหล่านี้เพื่อเริ่มต้นใช้งานโปรเจคนี้ในเครื่องของคุณ:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone repository**:
+   ```bash
+   git clone https://github.com/mengsokool/business-model-canvas.git
+   cd business-model-canvas
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **ติดตั้ง Dependencies**:
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **เริ่มต้นการใช้งานในโหมดพัฒนา**:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **เปิดใช้งานโปรเจคในเบราว์เซอร์**:
+   เปิดเบราว์เซอร์แล้วไปที่ `http://localhost:3000`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+หลังจากที่คุณติดตั้งโปรเจคและเปิดใช้งานแล้ว คุณสามารถใช้งานโปรเจค Business Model Canvas ผ่านอินเทอร์เฟซที่ใช้งานง่าย:
+
+- ป้อนชื่อโปรเจคของคุณในช่อง `Project Name`
+- เพิ่มโน้ตในแต่ละ section เช่น "Key Partners", "Key Activities" ฯลฯ
+- แก้ไขโน้ตที่มีอยู่โดยคลิกที่ปุ่ม "Edit"
+- ลบโน้ตที่ไม่ต้องการโดยคลิกปุ่ม "Delete"
+- คุณสามารถพิมพ์, ส่งออก (Export) และนำเข้า (Import) ข้อมูลของ Business Model Canvas ได้ตามต้องการ
+
+## 📝 Contributing
+
+เรายินดีต้อนรับการมีส่วนร่วมในโปรเจคนี้! หากคุณต้องการมีส่วนร่วม โปรดทำตามขั้นตอนเหล่านี้:
+
+1. Fork โปรเจคนี้
+2. สร้าง branch ใหม่ (`git checkout -b feature/ชื่อ-feature`)
+3. Commit การเปลี่ยนแปลง (`git commit -m 'เพิ่มฟีเจอร์ใหม่'`)
+4. Push ไปที่ branch (`git push origin feature/ชื่อ-feature`)
+5. เปิด Pull Request
+
+## 🐛 Reporting Issues
+
+หากคุณพบปัญหาใดๆ หรือมีข้อเสนอแนะ โปรดเปิด Issue ใหม่ที่ [GitHub Issues](https://github.com/mengsokool/business-model-canvas/issues)
+
+## 📄 License
+
+โปรเจคนี้อยู่ภายใต้ลิขสิทธิ์ [MIT License](LICENSE) - คุณสามารถใช้งานได้อย่างอิสระและเปิดโอกาสให้ผู้อื่นมีส่วนร่วม
